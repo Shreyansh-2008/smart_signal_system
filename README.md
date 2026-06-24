@@ -1,7 +1,7 @@
 # smart_signal_system
 Smart Traffic Controller using Python
-
-Features:
+version 1.0
+#Features:
 - Vehicle count input
 - Traffic-based signal priority
 - Dynamic green signal timing

@@ -7,9 +7,10 @@ version 1.0
 - Dynamic green signal timing
 - Countdown timer
 - Automatic road sorting
+- vehicle reduction system [updated - 28/6/26 at 12.13 AM IST]
 
 Future Updates:
 - Emergency vehicle priority
-- Vehicle reduction system
+- Vehicle reduction system [done]
 - Traffic analytics
 - GUI version

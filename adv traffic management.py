@@ -16,6 +16,8 @@ while True:
                      key=lambda x:x[1],
                      reverse=True)
             for road,vehicles in sorted_roads:
+                 if vehicles == 0:
+                     continue
 
                  if vehicles>=50:
                     green_time=10
@@ -37,8 +39,8 @@ while True:
                       vehicles = 0
                  roads[road]=vehicles
                  print(road,"remaining vehicles",vehicles)
-                 total=sum(roads.values())
-                 if total==0:
-                    print("\n allRoads are clear now")
-                    print("Traffic Normal")
-                    break
+            total=sum(roads.values())
+            if total==0:
+               print("\n allRoads are clear now")
+               print("Traffic Normal")
+               break
